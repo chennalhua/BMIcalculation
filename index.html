@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI 計算機</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<div class="container open"> 
+    <div class="title">
+        <h1 class="logo">算出你的：</h1>
+        <p>別害怕計算出事實！遲早都要面對</p>
+    </div>
+    <img src="img/bmikata-bmi.svg" alt="bmi" width="600">
+</div>
+<!-- main -->
+<main>
+    <div class="container">
+        <div class="header-content">
+            <form class="form">
+                <div class="input-group">
+                    <label for="height">身高 cm</label>
+                    <input type="number" id="height" placeholder="ex.168">
+                    <p class="height-verifi" ></p>
+                </div>
+                <div class="input-group">
+                    <label for="weight">體重 kg</label>
+                    <input type="number" id="weight" placeholder="ex.49">
+                    <p class="weight-verifi" ></p>
+                </div>
+            </form>
+            <button class="result-btn">看結果</button>
+            <button class="state-btn d-none">
+                <p>18.43</p>
+                <p class="bmi-text">BMI</p>
+                <span class="reset-btn"><img src="img/icon-loop.png"></span>
+            </button>
+        </div>
+    </div>
+</main>
+<!-- main end -->
+
+<!-- section -->
+<section class="main">
+    <div class="container">
+        <h2 class="title">BMI 紀錄</h2>
+        <div class="clear-all"><a href="#">清除全部</a></div>
+        <ul class="result-body">
+        </ul>
+    </div>
+</section>
+<!-- section end -->
+
+<!-- footer -->
+<footer>
+    <p>BMI &copy; 2021</p>
+</footer>
+<!-- footer end -->
+
+<script src="https://kit.fontawesome.com/171768a726.js" crossorigin="anonymous"></script>
+<script src="js/all.js"></script>
+</body>
+</html>
