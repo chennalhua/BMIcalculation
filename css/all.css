@@ -66,6 +66,10 @@ table {
   display: none;
 }
 
+body, html {
+  font-family: "Microsoft JhengHei";
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
