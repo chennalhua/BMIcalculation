@@ -107,8 +107,10 @@ function printBmiCard(e){
         <p class="weight"><span>weight</span>${item.weight}kg</p>
         <p class="height"><span>height</span>${item.height}cm</p>
     </div>
-    <p class="date">${item.date}</p>
-    <button class="del-btn"><i class="fas fa-trash" data-num="${index}"></i></button>
+    <div class="card-foot">
+        <p class="date">${item.date}</p>
+        <button class="del-btn"><i class="fas fa-trash" data-num="${index}"></i></button>
+    </div>
 </li>`;
     str+=content;
     });
